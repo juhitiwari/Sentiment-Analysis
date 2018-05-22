@@ -8,6 +8,6 @@ Created on Tue May 22 19:47:53 2018
 
 import sentiment_mod as s
 
-print(s.sentiment("Concepts were wonderfully explained! AASF is awesome"))
+print(s.sentiment("Thankyou for the information. Please help me with this problem"))
 print(s.sentiment("Such a boring blog. Try for better content"))
 
