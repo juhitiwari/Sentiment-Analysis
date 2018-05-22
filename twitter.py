@@ -27,7 +27,7 @@ class listener(StreamListener):
         
         if confidence*100 >= 80:
             output = open("twitter-out.txt","a")
-            output.write(tweet + " "+ sentiment_value)
+            output.write(sentiment_value)
             output.write('\n')
             output.close()
 
